@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Dice(modifier: Modifier = Modifier, name: String) {
+fun Dice(modifier: Modifier = Modifier) {
     Column(
         modifier = modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -56,6 +56,6 @@ fun Dice(modifier: Modifier = Modifier, name: String) {
 @Composable
 fun GreetingPreview() {
     RollthediceTheme {
-        Dice(name = "Android")
+        Dice()
     }
 }
