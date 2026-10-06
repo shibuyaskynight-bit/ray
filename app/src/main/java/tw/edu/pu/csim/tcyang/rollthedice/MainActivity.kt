@@ -27,7 +27,6 @@ class MainActivity : ComponentActivity() {
             RollthediceTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Dice(
-                        name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
